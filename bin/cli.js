@@ -172,5 +172,5 @@ if (!command || command === "bench") {
 }
 
 if (!command || command === "compare") {
-	compare(base, current, benchmarkDirectory);
+	compare("base-2", "output");
 }
